@@ -4,8 +4,8 @@
          so I moved to sending an API request through the script -->
     <form class="MultiplyComponent-form" action="/multiply" method="post"
           @submit.prevent="submitForm">
-      <input type="number" v-model="number1">
-      <input type="number" v-model="number2">
+      <input type="number" step="0.01" v-model="number1">
+      <input type="number" step="0.01" v-model="number2">
       <button type="submit">Submit</button>
     </form>
     <div v-show="!!result">
