@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MultiplyComponent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MultiplyComponent from './components/MultiplyComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MultiplyComponent,
   }
 }
 </script>
