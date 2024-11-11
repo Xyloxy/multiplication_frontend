@@ -42,7 +42,7 @@ export default {
         "number1": this.number1,
         "number2": this.number2,
       }
-      
+
       axios
         .post(BASE_URL + "/multiply", requestData)
         .then((res) => {

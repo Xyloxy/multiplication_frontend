@@ -1,5 +1,5 @@
 <template>
-  <MultiplyComponent/>
+  <MultiplyComponent />
 </template>
 
 <script>
