@@ -1,5 +1,10 @@
 # multiplication_frontend
 
+## Setup and run command
+```
+npm install && npm run serve
+```
+
 ## Project setup
 ```
 npm install
